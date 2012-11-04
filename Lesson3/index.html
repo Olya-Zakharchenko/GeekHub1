@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Формы</title>
+</head>
+
+<body>
+	<form action="mailto:oli4kazaina@rambler.ru" method="get" name="Form" id="Form">
+    	<fieldset>
+    	<legend><strong>Коротко о себе</strong></legend>
+      		<label>Имя<input type="text" name="firstname" id="firstname" size="60" /></label><br /><br />
+        	<label>Фамилия<input type="text" name="lastname" id="lastname" size="60" /></label><br  /><br />
+       		<label>Пол</label>
+        		<input type="radio" name="pol" value="1" /><label>мужской</label>
+        		<input type="radio" name="pol" value="2" /><label>женский</label><br /><br />
+    		<label>Возраст<input type="text" name="age" id="age" size="10" /></label><label>лет</label><br />
+        </fieldset>
+    	<fieldset>
+        <legend><strong>Подробнее о себе</strong></legend>
+        	<input type="radio" name="pol1" value="1" /><label>молодой человек</label><br />
+        	<input type="radio" name="pol1" value="2" /><label>девушка</label><br />
+        	<input type="text" name="BDay" id="BDay" size="40" /><label for="BDay">Дата рождения</label><br />
+        	<input type="text" name="MaritalStatus" id="MaritalStatus" size="40"  /><label for="MaritalStatus">Семейное положение</label><br />
+        	<input type="text" name="SocialStatus" id="SocialStatus" size="40"  /><label for="SocialStatus">Социальный статус</label><br />
+         	<input type="text" name="Residence" id="Residence" size="40" /><label for="Residence">Местожительства</label><br /><br />
+        	<label><strong>Что вы обычно делаете на выходных :</strong></label><br />
+            <input type="checkbox" name="Hobbie" value="1" /><label>Сплю</label><br />
+            <input type="checkbox" name="Hobbie" value="2" /><label>Гуляю</label><br />
+            <input type="checkbox" name="Hobbie" value="3" /><label>Хожу на рыбалку</label><br />
+            <input type="checkbox" name="Hobbie" value="4" /><label>Играю в танки</label><br /><br />
+            <label><strong>Рассказать о формах в книге, посвященной HTML</strong></label><br />
+            <select>
+            	<option id="Spisok" selected="selected">Site frequency</option>
+                <option id="Spisok1">Site frequency1</option>
+                <option id="Spisok2">Site frequency2</option>
+            </select><br /><br />
+            <label><strong>Сколько книг вы прочитали за свою жизнь?</strong></label><br />
+            <input type="radio" name="Books" value="1" /><label>0-10</label><br />
+            <input type="radio" name="Books" value="2" /><label>11-20</label><br />
+            <input type="radio" name="Books" value="3" /><label>21-50</label><br />
+            <input type="radio" name="Books" value="4" /><label>50+</label><br /><br />
+            <label><strong>Ваши комментарии</strong></label><br />
+            <textarea name="Comments" rows="10" cols="100" ></textarea><br /><br />
+            <select size="3">
+            	<option id="Spisok3" >Первая позиция</option>
+                <option id="Spisok4" selected="selected">Вторая позиция</option>
+                <option id="Spisok5" >Третья позиция</option>
+            </select>
+        </fieldset>
+        <fieldset>
+        <legend><strong>И в заключении</strong></legend>
+        	<input type="text" name="Vvedennoepole" id="VVedennoepole" size="60" value="Это поле было введено до Вас" disabled="disabled" /><br />
+            <label for="Email"><strong>Email:</strong></label><br /><br />
+            <input name="Email" id="Email" size="60" maxlength="40" /><br /><br />
+            <label><strong>Хотите подписаться на самую модную рассылку спама?</strong></label><br />
+            <label><i>Выберите категорию</i></label><br />
+            <input type="checkbox" name="Equipment" value="1" /><label>Оборудование</label><br />
+            <input type="checkbox" name="Meals" value="2" /><label>Как приготовить обед</label><br />
+            <input type="checkbox" name="Million" value="3" /><label>Заработай миллион за два дня</label><br />
+            <label><strong>Насколько сложная задача:</strong></label><br />
+            <input type="radio" name="Difficult" value="1" /><label>Совсем нет</label><br />
+            <input type="radio" name="Difficult" value="2" /><label>Так себе</label><br />
+            <input type="radio" name="Difficult" value="3" /><label>Еле справился</label><br />
+         </fieldset>
+         	<input type="submit" value="Отправить" />
+    </form>
+    
+</body>
+</html>
