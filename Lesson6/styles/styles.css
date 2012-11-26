@@ -1,0 +1,126 @@
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif;  color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:none;}
+a:hover                        { text-decoration:none; }
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+
+/*-------------------------------------WRAPPER--------------------------------------*/
+body {  	
+		background:#FFF url(../images/background2.jpg) repeat-x; 
+		}
+
+#wrapper {
+		width:780px; 
+		height:100%; 
+		margin:0 auto;  
+		color:#000;}
+
+.logo { 
+		float:left; 
+		margin:40px 0 38px 0;}
+
+.navigation {
+		width:780px; 
+		height:160px; 
+		margin-left:291px;}
+
+.navigation a:hover {
+		color:#45B8FB; 
+		text-decoration:none;} /*---Цвет ховера-*/
+
+.navigation a {
+		font:16px Arial, Helvetica, sans-serif; 
+		color:#939597;}
+
+.nav1, .nav2, .nav3 {
+		float:left;}/*--навигация в одну строчку--*/
+ 
+
+.clear { 
+		clear:left;} /*--Отмена обтекания--*/
+
+
+.nav1 {
+		margin:86px 27px 75px 140px;}
+
+.nav2 {
+		margin:86px 24px 75px 27px;}
+
+.nav3 {
+		margin:86px 25px 75px 24px;} 
+
+.line-header {
+		border:none; 
+		background-color:#939597; 
+		color:#939597; 
+		height:1px;}
+
+.line-content { 
+		border:none; 
+		background-color:#00A7FB; 
+		color:#00A7FB; 
+		height:1px;}
+
+.line-heder1 { 
+		border:none;
+		background-color:#B5b6B7; 
+		color:#B5b6B7; 
+		height:1px;}
+
+h1 {
+		font-size:26px; 
+		color:#000; 
+		text-align:left; 
+		font:Arial, Helvetica, sans-serif; 
+		margin-top:65px; 
+		margin-bottom:10px; 
+		font-weight:lighter;}
+
+h2 {
+		font-size:18px; 
+		color:#03A7FD; 
+		text-align:left; 
+		font-weight:lighter;}
+
+p {
+		margin-top:10px; 
+		margin-bottom:10px; 
+		font:Arial, Helvetica, sans-serif; 
+		font-size:14px; 
+		color:#444;}
+
+.m2m { 
+		width:780px; 
+		text-align:center; 
+		margin-bottom:30px;}
+
+#footer p {
+		font-size:10px; 
+		color:#77797B;}
