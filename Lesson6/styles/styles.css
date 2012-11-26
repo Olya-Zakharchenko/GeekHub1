@@ -114,7 +114,8 @@ p {
 		margin-bottom:10px; 
 		font:Arial, Helvetica, sans-serif; 
 		font-size:14px; 
-		color:#444;}
+		color:#444;
+		text-align:justify;}
 
 .m2m { 
 		width:780px; 
