@@ -66,6 +66,14 @@ a:hover                        { text-decoration:none; }
 		font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; 
 		color:#4B8BBF; 
 		background:url(../images/arrow.png) no-repeat 100% 50%;}
+		
+.img { width:136px; height:136px; background:url(../images/img-link.png) no-repeat;  text-indent:-999em;}
+
+.rings { background-position:-143px 0;}
+
+.hall { background-position:-284px 0;}
+
+.hairstyle { background-position:-426px 0;}
 
 #navigation { overflow:hidden;}
 
