@@ -1,0 +1,215 @@
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:15px Arial, Helvetica, sans-serif; color:#4B7589; background:url(../images/background.png) repeat-x #fff;}
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:15px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+input, textarea                { border-style:none; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:15px  Arial, Helvetica, sans-serif; color:#396375; text-decoration:none; }
+a:hover                        { text-decoration:none; }
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+
+#wrapper { 
+			width:864px;
+			margin:0 auto;}
+#header {
+		width:900px;
+		margin-left:-36px;
+		padding-top:19px;
+		height:89px; 
+		overflow:hidden; 
+		margin-bottom:41px;}
+.menu { 
+		float:right; 
+		margin:25px 0 0 0;}				
+.menu li { float:left;}
+.menu li a {
+		font:15px Arial, Helvetica, sans-serif;
+		color:#396375; 
+		text-transform:uppercase;  
+		padding:47px 8px;
+		font-weight:bold;}
+.menu li a.contacts { padding-right:0;}
+.menu li a:hover  {color:#E21D5D;}
+.menu li.active a { 
+		color:#E21D5D;
+		background:url(../images/active_page_link.png) no-repeat 50% 100%;}
+.links { 
+		margin:25px 100px 0 10px;
+		float:right;}
+.links li { 
+		float:left; 
+		padding-left:8px;}
+.links li a { 
+		width:25px; 
+		height:25px; 
+		text-indent:-999em; 
+		display:block; 
+		background:url(../images/social.png) no-repeat; }
+.links li a.fb { background-position:0 0;}
+.links li a.vk { background-position:-32px 0;}
+.links li a.tw { background-position:-64px 0;}
+.links li a.yt { background-position:-96px 0;}
+.links li a.vm { background-position:-128px 0;}
+.links li a.fb:hover { background-position:0 -25px; } 
+.links li a.vk:hover { background-position:-32px -25px; } 
+.links li a.tw:hover { background-position:-64px -25px;}
+.links li a.yt:hover { background-position:-96px -25px;}
+.links li a.vm:hover { background-position:-128px -25px;}
+
+/*--CONTENT--*/
+
+#content h1 {font:56px Arial, Helvetica, sans-serif;
+			font-weight:lighter;
+			border-bottom:1px solid #A7C3CF;
+			padding-bottom:25px;
+			margin-left:-36px;
+			line-height:1em;
+			font-family:}
+
+#content h2 {
+			font-size:28px; 
+			color:#E92777; 
+			margin:40px 0 12px 0;
+			font-weight:inherit;}
+#content ol { 
+			margin:23px 0 27px 0; 
+			color:#F2753D; 
+			line-height:1.2em; 
+			margin-bottom:27px;}
+#content ol li { 
+			margin-bottom:13px; 
+			padding-left:18px;}
+			
+.first { background:url(../images/number_1.png) no-repeat 0 0;}
+
+.second { background:url(../images/number_2.png) no-repeat 0 0;}
+
+.therd { background:url(../images/number_3.png) no-repeat 0 0;}
+
+
+#register_form { margin:50px 0 0 103px;}
+
+#register_form .contentlabel { 
+			display:block; 
+			float:left; 
+			width:135px;
+			padding:16px 20px 0 0;
+			text-align:right;
+			line-height:1.3em;
+			font-weight:bold;
+			color:#4B7589;}
+			
+#register_form .error .contentlabel { color:#EB3581;}
+
+#register_form .registration input {
+			border-top:1px solid #92ACB7; 
+			background:#E8F0F2; 
+			border-radius:10px; 
+			width:326px;
+			line-height:1.0em;
+			color:#4B7589; 
+			padding:15px;
+			float:left;
+			margin-right:15px;}
+
+#register_form .registration span { 
+			display:none; 
+			font-size:14px; 
+			color:#EB3581; 
+			padding-top:15px;}
+			
+#register_form .registration .error span  { display:block;}
+
+#register_form .registration li { 
+			overflow:hidden;
+			margin-bottom:9px;}
+
+#register_form .registration li.checkbox { 
+			display:block; 
+			margin:13px 0 13px 158px; 
+			width:356px;}
+
+#register_form #checkbox { margin-right:10px;
+			width:13px;}
+
+#register_form #textarea {
+			width:326px; 
+			height:141px; 
+			padding:15px; 
+			border-top:1px solid #92ACB7; 
+			background:#E8F0F2; 
+			border-radius:10px; 
+			color:#4B7589; 
+			float:left; 
+			margin-right:15px;
+			line-height:1.0em;}
+			
+#register_form .registration .numbers label { font-weight:normal;}
+
+#register_form .registration .numbers img { 
+			display:block; 
+			float:left; 
+			padding-right:50px; 
+			background:url(../images/numeros-arrow.png) no-repeat 100% 50%; 
+			margin-right:20px;}
+			
+#register_form .registration .numbers input { 
+			width:125px; 
+			font-size:22px; 
+			color:#4B7589; 
+			padding:12px 15px;}
+
+#register_form #submit { 		
+			display:inline-block;
+			margin:30px 0 70px 156px;
+			font-size:29px;
+			background:url(../images/submit-button.png);
+			width:217px;
+			height:46px;
+			color:#FFFFFF;}
+/*----FOOTER----*/
+#footer { 
+			border-top: 1px solid #A7C3CF; 
+			margin-bottom:100px;
+			font-size:11px;}
+			
+#footer ul li { 
+			float:left; 
+			padding-right:20px;}
+			
+#footer ul li a {			 
+			color:#396375; 
+			font-weight:bold;}
+
+#footer span { 
+			float:right;
+			color:#A7C3CF;}
+			
+#footer a:hover {color:#F95C4E;}
+
+
+
+
