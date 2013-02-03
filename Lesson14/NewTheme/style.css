@@ -1,0 +1,136 @@
+/*CSS Document*/
+
+/*   
+
+	  Theme Name: Geekhub
+	  Theme URI: http://geekhub.ck.ua
+	  Description: Geekhub Inside
+	  Author: Olga Zakharchenko
+	  Author URI: http://geekhub.ck.ua
+	  Version: 1.0
+	  General Comments/License Statement of any.
+
+*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:15px Arial, Helvetica, sans-serif; color:#4B7589; background:url(images/background.png) repeat-x #fff;}
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:15px  Arial, Helvetica, sans-serif; color:#396375; text-decoration:none; }
+a:hover                        { text-decoration:none; }
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*-------------------------------------WRAPPER--------------------------------------*/
+#wrapper { 
+			width:900px;
+			margin:0 auto;}
+/*-------------------------------------HEADER---------------------------------------*/
+#header {
+		padding-top:19px;
+		height:89px; 
+		overflow:hidden; 
+		margin-bottom:30px;}
+#header img { }
+.menu { 
+		float:right; 
+		margin:14px 6px 0 0;}				
+.menu li { float:left;}
+.menu li a {
+		font:15px Arial, Helvetica, sans-serif;
+		color:#396375; 
+		text-transform:uppercase;  
+		padding:47px 8px;}
+.menu li a:hover  {color:#E21D5D;}
+.menu li.active a { 
+		color:#E21D5D;
+		background:url(images/active_page_link.png) no-repeat 50% 100%;}
+.links {
+		float:right; 
+		margin:25px 100px 0 10px;}
+.links li { float:left; padding-left:8px;}
+.links li a { width:25px; height:25px; text-indent:-999em; display:block; background:url(images/social.png) no-repeat; }
+.links li a.fb { background-position:0 0;}
+.links li a.vk { background-position:-32px 0;}
+.links li a.tw { background-position:-64px 0;}
+.links li a.yt { background-position:-96px 0;}
+.links li a.vm { background-position:-128px 0;}
+.links li a.fb:hover { background-position:0 -25px; } 
+.links li a.vk:hover { background-position:-32px -25px; } 
+.links li a.tw:hover { background-position:-64px -25px;}
+.links li a.yt:hover { background-position:-96px -25px;}
+.links li a.vm:hover { background-position:-128px -25px;}
+/*-------------------------------------CONTENT--------------------------------------*/
+#content {overflow:hidden;}
+
+h1 {		font:56px Arial, Helvetica, sans-serif;
+			font-weight:lighter;
+			border-bottom:1px solid #A7C3CF;
+			padding-bottom:25px;}
+div.post { margin-bottom:25px;}
+.geekteam { padding:30px 36px;} 
+.geekteam li { 
+			padding-bottom:15px;
+			overflow:hidden;}
+.geekteam h2 { 
+			text-align:right;
+			font: 28px Arial, Helvetica, sans-serif; 
+			color:#E92777;
+			width:170px;
+			height:170px;
+			float:left;
+			}
+.geekteam .left h2 { float:right; text-align:left;}
+
+.geekteam h2 span { display:block;
+			
+			font:12px Arial, Helvetica, sans-serif; 
+			color:#F2753D;
+			} 
+
+.geekteam img { float:left; margin: 0 30px;}
+.geekteam .left img { float:right;}
+.geekteam p { overflow:hidden;}
+.geekteam .left p { text-align:right;}
+
+/*-------------------------------------FOOTER---------------------------------------*/
+#footer { border-top: 1px solid #A7C3CF;}
+
+#footer ul li { 
+			float:left;
+			margin:20px 20px 0 0;		
+			font-weight:bold;}
+#footer ul li a {			 
+			color:#396375; 
+			font-size:11px;
+			font-weight:bold;}
+
+#footer span { 
+			float:right;
+			color:#A7C3CF;
+			font-size:11px;
+			margin-top:30px;}
+
+#footer a:hover {color:#F95C4E;}
